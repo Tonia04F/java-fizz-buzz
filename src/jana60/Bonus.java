@@ -32,7 +32,7 @@ public class Bonus {
 					System.out.println("Prova di nuovo!");
 				}
 				
-				
+				//chiedo prima dei il numero e multiplo di 5 e 3 
 				if(numeroScelto%3 ==0 && numeroScelto%5 ==0) {
 					System.out.println("fizzBuzz");
 				}
