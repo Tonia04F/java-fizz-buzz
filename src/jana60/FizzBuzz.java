@@ -11,7 +11,7 @@ public class FizzBuzz {
 		for(int i = 1; i <=100; i++) {
 			
 			
-			//se sono divisibili per 3 chiedo al programma di stampare fizz
+			//se sono divisibili per 3 e per 5 chiedo al programma di stampare fizz
 			if(i % 5 == 0 && i % 3 == 0) {
 				System.out.println("fizzBuzz");
 			}
@@ -19,7 +19,7 @@ public class FizzBuzz {
 			else if(i % 5 == 0) {
 				System.out.println("buzz");
 			}
-			//se sono divisibili per 3 e per 5 chiedo al programma di stampare fizz buzz
+			//se sono divisibili per 3 
 			else if(i % 3 == 0) {
 				System.out.println("fizz");
 			
