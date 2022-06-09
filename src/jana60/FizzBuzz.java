@@ -9,7 +9,7 @@ public class FizzBuzz {
 		
 		//scrivo numeri da 1 a 100
 		for(int i = 1; i <=100; i++) {
-			System.out.println(i);
+			
 			
 			//se sono divisibili per 3 chiedo al programma di stampare fizz
 			if(i % 5 == 0 && i % 3 == 0) {
@@ -24,7 +24,9 @@ public class FizzBuzz {
 				System.out.println("fizz");
 			
 			}
-			
+			else {
+			System.out.println(i);
+			}
 		}
 	}
 
